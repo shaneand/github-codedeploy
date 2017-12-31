@@ -22,5 +22,6 @@ hooks:
     - location: scripts/delete-index.sh
       runas: root
   AfterInstall:
+    - location: scripts/mod-index.sh
     - location: scripts/webserver-start.sh
 
